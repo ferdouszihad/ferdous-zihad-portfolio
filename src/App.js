@@ -5,8 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p style={{ fontSize: "66px" }}>Thanks For Visiting</p>
+        <p style={{ fontSize: "36px" }}>Portfolio is on Development </p>
         <img src={logo} className="App-logo" alt="logo" />
-        Ferdous Zihad Portfolio
+        <p>Stay Tuned</p>
       </header>
     </div>
   );
