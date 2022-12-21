@@ -1,15 +1,29 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./pages/Home/Home";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LayoutMain from "./Layouts/LayoutMain";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <LayoutMain></LayoutMain>,
+      children: [
+        {
+          path: "",
+          element: <Home></Home>,
+        },
+        {
+          path: "/home",
+          element: <Home></Home>,
+        },
+      ],
+    },
+  ]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <p style={{ fontSize: "66px" }}>Thanks For Visiting</p>
-        <p style={{ fontSize: "36px" }}>Portfolio is on Development </p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Stay Tuned</p>
-      </header>
+    <div className="">
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
