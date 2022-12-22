@@ -17,7 +17,7 @@ const ProjectDetails = () => {
         <div className="project-img p-4 pb-0 mb-5  rounded-top bg-dark">
           <img src={project.image} alt="" className="img-fluid rounded-top" />
         </div>
-        <div className="links d-flex flex-wrap justify-content-end gap-3">
+        <div className="links d-flex flex-wrap justify-content-center mb-5 gap-3">
           <a
             className="btn btn-warning "
             href={project.liveLink}
