@@ -21,15 +21,15 @@ const Menu = () => {
             <Link to="/about" className="text-light  nav-btn">
               ABOUT ME
             </Link>
-            <a href="home#projects" className="text-light  nav-btn">
+            <Link to="/projects" className="text-light  nav-btn">
               PROJECTS
-            </a>
+            </Link>
             <Link to="/blog" className="text-light  nav-btn">
               BLOGS
             </Link>
-            <a href="home#contact" className="text-light  nav-btn">
+            <Link to="/contact" className="text-light  nav-btn">
               CONTACT
-            </a>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

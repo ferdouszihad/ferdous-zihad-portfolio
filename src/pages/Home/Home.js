@@ -8,9 +8,6 @@ const Home = () => {
   return (
     <div id="home" className="d-flex flex-column gap-5">
       <Banner></Banner>
-
-      <Projects></Projects>
-      <Contact></Contact>
     </div>
   );
 };

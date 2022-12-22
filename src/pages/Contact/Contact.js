@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div id="contact">
+    <section id="contact">
       <Title>Contact With Me</Title>
       <div className="container my-5">
         <Form>
@@ -37,7 +37,7 @@ const Contact = () => {
           <Button variant="primary">Contact Now</Button>
         </Form>
       </div>
-    </div>
+    </section>
   );
 };
 

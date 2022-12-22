@@ -12,13 +12,13 @@
       "Seller can add, manage and advertise his own products & Buyer have the booking functionalities.",
       "Admin have the seller buyer management functionality and seller verify functionality."
     ],
-    "technology": "React JS, Node, MongoDB, Express, Context API, Firebase, React-Type Animation, etc",
+    "technology": "React JS, Node, MongoDB, Express, Context API, Firebase, React-Type Animation",
     "image": "https://raw.githubusercontent.com/ferdouszihad/money-manager/main/img/p1.png"
   },
   {
     "id": 2,
     "name": "Tiffin Bhai",
-    "objective": "Review System for Online Delivery Service",
+    "objective": "A Review System for Online Delivery & other services",
     "client": "https://github.com/ferdouszihad/tiffin-bhai-client",
     "server": "https://github.com/ferdouszihad/tiffin-bhai-server",
     "liveLink": "https://tiffinbhai-83114.firebaseapp.com/",
@@ -27,7 +27,7 @@
       "The User have ability to access the functionalities of adding, deleting and modifying their review.",
       "User can also add his/her own services to the Application."
     ],
-    "technology": "React JS, Node, MongoDB, Express, Context API, Firebase, React-Type Animation, etc",
+    "technology": "React JS, Node, MongoDB, Express, Context API, Firebase, React-Type Animation",
     "image": "https://raw.githubusercontent.com/ferdouszihad/money-manager/main/img/p2.png"
   },
   {
@@ -42,7 +42,7 @@
       "Only Logged-in Users can see Product details & feature products.",
       "User can get premium access and download the course details as PDF."
     ],
-    "technology": "React JS, Node, MongoDB, Express, Context API, Firebase,vercel, etc",
+    "technology": "React JS, Node, MongoDB, Express, Context API, Firebase,vercel",
     "image": "https://raw.githubusercontent.com/ferdouszihad/money-manager/main/img/p3.png"
   }
 ]
