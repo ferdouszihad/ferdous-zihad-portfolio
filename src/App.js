@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -7,6 +6,8 @@ import Blog from "./pages/Blog/Blog";
 import About from "./pages/About/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/Contact/Contact";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const router = createBrowserRouter([
@@ -43,6 +44,11 @@ function App() {
   ]);
   return (
     <div className="">
+      <ToastContainer
+        className="w-50"
+        position="top-right"
+        autoClose={3000}
+      ></ToastContainer>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
