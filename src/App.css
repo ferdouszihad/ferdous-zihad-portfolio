@@ -7,6 +7,14 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
 }
+a{
+    text-decoration: none;
+}
+.nav-btn :hover{
+    background: #fff !important;
+    font-weight: bold;
+
+}
 .text-justify{
     text-align: justify;
 }

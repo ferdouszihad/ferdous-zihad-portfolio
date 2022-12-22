@@ -1,9 +1,10 @@
 import React from "react";
+import Menu from "./Menu";
 
 const Header = () => {
   return (
     <header className="fixed-top">
-      <p>P o r t f o l i o</p>
+      <Menu></Menu>
     </header>
   );
 };
