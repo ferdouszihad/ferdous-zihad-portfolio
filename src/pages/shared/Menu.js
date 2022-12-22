@@ -15,21 +15,21 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto d-flex flex-column flex-lg-row gap-5">
-            <Link to="/home" className="text-light  nav-btn">
+            <a href="home#home" className="text-light  nav-btn">
               HOME
-            </Link>
-            <Link to="/home" className="text-light  nav-btn">
+            </a>
+            <a href="home#about" className="text-light  nav-btn">
               ABOUT ME
-            </Link>
-            <Link to="/home" className="text-light  nav-btn">
+            </a>
+            <a href="home#projects" className="text-light  nav-btn">
               PROJECTS
-            </Link>
-            <Link to="/home" className="text-light  nav-btn">
+            </a>
+            <Link to="/blog" className="text-light  nav-btn">
               BLOGS
             </Link>
-            <Link to="/home" className="text-light  nav-btn">
+            <a href="home#contact" className="text-light  nav-btn">
               CONTACT
-            </Link>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -3,7 +3,7 @@ import Title from "../shared/Title";
 
 const About = () => {
   return (
-    <div style={{ minHeight: "100vh" }}>
+    <section id="about">
       <Title>About Me</Title>
       <div className="container">
         <div className="row g-5">
@@ -66,7 +66,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -10,7 +10,7 @@ const Projects = () => {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <div>
+    <div id="projects">
       <Title>My Recent Projects</Title>
       <div className="container my-5">
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

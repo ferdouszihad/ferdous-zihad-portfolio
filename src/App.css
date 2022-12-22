@@ -7,8 +7,15 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
 }
+section{
+    min-height: 100vh;
+    padding-top: 100px;
+}
 a{
     text-decoration: none;
+}
+.bg-ash{
+    background-color: #eeeeee;
 }
 .nav-btn :hover{
     background: #fff !important;

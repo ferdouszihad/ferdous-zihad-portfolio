@@ -6,7 +6,7 @@ import Banner from "./Banner";
 
 const Home = () => {
   return (
-    <div className="d-flex flex-column gap-5">
+    <div id="home" className="d-flex flex-column gap-5">
       <Banner></Banner>
       <About></About>
       <Projects></Projects>

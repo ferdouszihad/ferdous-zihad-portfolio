@@ -7,11 +7,11 @@ const Banner = () => {
       id="top-banner"
       class="d-flex flex-column flex-md-row container align-items-center"
     >
-      <div class="d-flex flex-column gap-2">
-        <h1 className="display-1 fw-bold letter-spacing-1">
+      <div class="d-flex flex-column gap-2 order-2 order-md-1">
+        <h1 className="display-1 fw-bold letter-spacing-1 text-center">
           F M ZAHIDUL ISLAM
         </h1>
-        <p className="text-bg-dark fs-5 p-2 px-3 rounded-1 ls-2 d-inline-block">
+        <p className="text-bg-dark fs-5 p-2 px-3 rounded-1 ls-2 d-inline-block text-center">
           FULL STACK DEVELOPER (MERN)
         </p>
         <p className="text-justify">
@@ -21,7 +21,7 @@ const Banner = () => {
           innovative, creative skills for self and company growth through the
           assigned responsibility.
         </p>
-        <div className="links d-flex flex-md-row gap-3">
+        <div className="links d-flex flex-wrap flex-md-row gap-3 justify-content-center">
           <a
             href="https://drive.google.com/file/d/1YXpsDr58qw2zmTqCvSxmLMzuUvwdlyND/view?usp=sharing"
             target="_blank"
@@ -49,7 +49,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div class="" style={{ minWidth: "50%" }}>
+      <div class="order-1 order-md-2" style={{ minWidth: "50%" }}>
         <img
           src="https://c.tenor.com/flflC6GFzO8AAAAd/sultan-alrefaei-programmer.gif"
           alt=""
