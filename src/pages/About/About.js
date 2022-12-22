@@ -6,17 +6,17 @@ const About = () => {
     <section id="about">
       <Title>About Me</Title>
       <div className="container">
-        <div className="row g-5">
-          <div className="col-md-5">
+        <div className="row g-5 justify-content-center">
+          <div className="col-md-5 text-center">
             <img
-              src="https://ferdouszihad.github.io/fz-space/images/me1.png"
+              src="https://raw.githubusercontent.com/ferdouszihad/money-manager/main/img/professiona-Picture.png"
               alt=""
-              className="img-fluid"
+              className="img-fluid w-75 rounded-circle"
             />
           </div>
           <div className="col-md-7">
             <article>
-              <p id="my-info">
+              <p id="my-info" className="text-justify">
                 I am F M ZAHIDUL ISLAM.Age 25. A Fresh Graduate Software
                 Engineer. I have recently completed my Bachelor's degree in{" "}
                 <strong>Computer Science and Engineering</strong> from{" "}
@@ -24,7 +24,7 @@ const About = () => {
                   Hajee Mohammad Danesh Science and Technology University.
                 </strong>
               </p>
-              <p>
+              <p className="text-justify">
                 While achieving my Bachelor's degree at HSTU, I developed{" "}
                 <strong>problem-solving skills</strong> ,{" "}
                 <strong>web development skills</strong> , and{" "}
