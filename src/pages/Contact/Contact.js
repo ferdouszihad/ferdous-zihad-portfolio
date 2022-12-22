@@ -3,7 +3,7 @@ import Title from "../shared/Title";
 import Form from "react-bootstrap/Form";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const navigate = useNavigate();

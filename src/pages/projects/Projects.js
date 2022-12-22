@@ -9,6 +9,7 @@ const Projects = () => {
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
+
   return (
     <section id="projects">
       <Title>My Recent Projects</Title>

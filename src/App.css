@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 2px;
 }
 section{
-    min-height: 100vh;
+    min-height: 96vh;
     padding-top: 120px;
 }
 a{
@@ -25,15 +25,20 @@ a{
 .text-justify{
     text-align: justify;
 }
-#top-banner{
-    height: 100vh;
-}
 header{
     background: linear-gradient( #2DB1FF ,#6A4EE1);
     padding:10px 0 ;
     text-align:center;
     color:#ddd;
     box-shadow: 0 5px 10px #2DB1FF;
+
+}
+
+footer {
+    background: #6A4EE1;
+    text-align: center;
+    color: #ddd;
+    box-shadow: 10px 0px 10px #2db1ff;
 
 }
 header p{
@@ -62,7 +67,7 @@ header p{
     bottom:0;
     margin:0;
     left:18px;
-    opacity: .3;
+    opacity: .2;
     font-weight: 900;
     letter-spacing: 3px;
     z-index: -1;

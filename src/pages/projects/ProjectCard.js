@@ -1,13 +1,15 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   const { technology } = project;
+  const navigate = useNavigate();
 
   const tools = technology.split(",");
   return (
     <div className="col">
-      <div className="card shadow h-100">
+      <div className="card bg-ash shadow h-100">
         <img
           src={project.image}
           className="card-body rounded-2"
@@ -26,7 +28,12 @@ const ProjectCard = ({ project }) => {
             ))}
           </div>
           <div className="details">
-            <Button variant="warning d-block w-100 my-2">See Details</Button>
+            <Button
+              onClick={() => navigate(`/projects/${project.id}`)}
+              variant="warning d-block w-100 my-2"
+            >
+              See Details
+            </Button>
             <a
               href={project.liveLink}
               rel="noreferrer"
