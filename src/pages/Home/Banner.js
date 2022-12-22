@@ -7,9 +7,11 @@ const Banner = () => {
       id="top-banner"
       class="d-flex flex-column flex-md-row container align-items-center"
     >
-      <div class="w-50 d-flex flex-column gap-2">
-        <h1 className="display-1">F M ZAHIDUL ISLAM</h1>
-        <p className="text-bg-dark fs-5 p-2 px-3 rounded-1 ls-2 d-inline-block ">
+      <div class="d-flex flex-column gap-2">
+        <h1 className="display-1 fw-bold letter-spacing-1">
+          F M ZAHIDUL ISLAM
+        </h1>
+        <p className="text-bg-dark fs-5 p-2 px-3 rounded-1 ls-2 d-inline-block">
           FULL STACK DEVELOPER (MERN)
         </p>
         <p className="text-justify">
@@ -26,7 +28,7 @@ const Banner = () => {
             rel="noreferrer"
             className="btn btn-warning"
           >
-            Download Resume <FaDownload></FaDownload>
+            My Resume <FaDownload></FaDownload>
           </a>
           <a
             href="https://linkedin.com/in/ferdouszihad"
@@ -47,7 +49,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div class="w-50">
+      <div class="" style={{ minWidth: "50%" }}>
         <img
           src="https://c.tenor.com/flflC6GFzO8AAAAd/sultan-alrefaei-programmer.gif"
           alt=""

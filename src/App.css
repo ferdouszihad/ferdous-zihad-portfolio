@@ -5,6 +5,7 @@
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
 }
 .text-justify{
     text-align: justify;
@@ -14,7 +15,7 @@ h1,h2,h3,h4,h5,h6{
 }
 header{
     background: linear-gradient( #2DB1FF ,#6A4EE1);
-    padding:10px 0 5px;
+    padding:10px 0 ;
     text-align:center;
     color:#ddd;
     box-shadow: 0 5px 10px #2DB1FF;
@@ -26,5 +27,28 @@ header p{
     text-transform: uppercase;
     margin:0;
     font-weight: 600;
+    font-size: 20px;
 }
-
+.letter-spacing-1{
+    letter-spacing: 2px;
+}
+.title{
+    display:inline-block;
+    border-bottom:5px dashed rgb(32, 32, 34);
+    letter-spacing: 3px;
+    font-weight: 600;
+    
+}
+.text-wrap{
+    position: relative;
+}
+.bg-text{
+    position: absolute;
+    bottom:0;
+    margin:0;
+    left:18px;
+    opacity: .3;
+    font-weight: 900;
+    letter-spacing: 3px;
+    z-index: -1;
+}
